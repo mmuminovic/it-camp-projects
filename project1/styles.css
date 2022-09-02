@@ -22,6 +22,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: red;
+  padding: 20px 100px;
+}
+
+.nav-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 
 .nav-logo {
@@ -82,4 +91,88 @@
   color: #ccc;
   font-size: 12px;
   margin-top: 10px;
+}
+
+.card {
+  background-color: #fff;
+  /* width: 20%; */
+  padding: 40px;
+  height: 300px;
+}
+
+.card-link {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: black;
+  background-color: grey;
+  margin-top: 16px;
+}
+
+.link-icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.card-title {
+  margin: 16px 0;
+}
+
+.arrow-img {
+  width: 20px;
+}
+
+.cards-container {
+  display: flex;
+  padding: 100px;
+}
+
+.p-1 {
+  padding: 8px;
+}
+
+.p-2 {
+  padding: 16px;
+}
+
+.offer-section {
+  height: 100vh;
+  background-color: #e4f1ed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-container {
+  width: 35%;
+  position: relative;
+}
+
+.offer-image {
+  width: 80%;
+  display: block;
+  margin: 50px;
+}
+
+.offer-message {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.offer-message p {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  padding: 20px;
 }
