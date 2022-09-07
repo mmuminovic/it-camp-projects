@@ -33,26 +33,76 @@
           <div class="horizontal-line--green"></div>
 
           <form>
-            <label for="firstname">First name</label>
-            <input
-              type="text"
-              id="firstname"
-              placeholder="Enter your first name"
-            />
-            <label for="lastname">Last name</label>
-            <input type="text" id="lastname" />
+            <label for="fullName">Full name</label>
+            <input type="text" id="lastname" placeholder="Enter full name" />
             <label for="password">Password</label>
-            <input type="password" id="password" />
+            <input
+              type="password"
+              id="password"
+              placeholder="Enter your password"
+            />
             <label for="age">Age</label>
-            <input type="number" id="age" />
-            <label for="phonenumber">Phone number</label>
-            <input type="text" id="phonenumber" placeholder="For example +3816130..." />
-            <button type="submit">Submit</button>
+            <input type="number" id="age" placeholder="Enter your age" />
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="name@example.com" />
+            <label for="message">Enter your message</label>
+            <textarea name="" id="message" maxlength="100" rows="5"></textarea>
+            <button type="submit" id="submit-button">Submit</button>
           </form>
         </div>
       </div>
     </header>
-    <main></main>
+    <main>
+      <section class="solutions">
+        <h2 class="solution__title">Solutions for every business need.</h2>
+        <div class="horizontal-line--green"></div>
+        <p>The brochure must grab a viewer’s attention and hold it long</p>
+        <p>enough to deliver the pertinent information.</p>
+        <div class="solution__cards">
+          <div class="soluton__card">
+            <img src="slike/skyscraper.png" alt="img" class="solution__image" />
+            <h3>What are my options and the cost to exercise?</h3>
+            <p>
+              Tools such as a profit and tax calculator show the value of your
+              stock options and exercise cost.
+            </p>
+          </div>
+          <div class="soluton__card">
+            <img src="slike/skyscraper.png" alt="img" class="solution__image" />
+            <h3>What are my options and the cost to exercise?</h3>
+            <p>
+              Tools such as a profit and tax calculator show the value of your
+              stock options and exercise cost.
+            </p>
+          </div>
+          <div class="soluton__card">
+            <img src="slike/skyscraper.png" alt="img" class="solution__image" />
+            <h3>What are my options and the cost to exercise?</h3>
+            <p>
+              Tools such as a profit and tax calculator show the value of your
+              stock options and exercise cost.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="offer">
+        <div class="offer__container">
+          <div class="offer-image__container">
+            <img
+              src="https://media.salon.com/2022/07/books-0728221.jpg"
+              alt="offer image"
+              class="offer-image"
+            />
+            <div class="offer-image__description">
+              <h2>99%</h2>
+              <p>customer satisfaction</p>
+            </div>
+          </div>
+          <div class="offer__details"></div>
+        </div>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>

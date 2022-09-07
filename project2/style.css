@@ -52,9 +52,8 @@
   margin: 16px 0;
 }
 
-
 .header__title {
-  flex: 3;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -62,30 +61,142 @@
 }
 
 .header__form {
-  flex: 2;
+  flex: 1;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .form__card {
-    background-color: white;
-    width: 80%;
-    height: 70%;
-    margin-top: 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  background-color: white;
+  height: 70%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 50px;
 }
 
 .horizontal-line--green {
-    width: 200px;
-    height: 2px;
-    background-color: green;
-    margin: 16px 0;
-  }
+  width: 200px;
+  height: 2px;
+  background-color: #10c98f;
+  margin: 16px 0;
+}
 
-  form label, input {
-    display: block;
-  }
+form label,
+input,
+textarea {
+  display: block;
+}
+
+input {
+  border: 2px solid #10c98f;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-size: 12px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+textarea {
+  border: 2px solid #10c98f;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#submit-button {
+  background-color: #10c98f;
+  color: white;
+  border-radius: 10px;
+  margin-top: 16px;
+  border-style: none;
+  padding: 5px 10px;
+}
+
+#submit-button:active {
+  border-style: none;
+}
+
+.solutions {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.solution__title {
+  text-align: center;
+}
+
+.solution__cards {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.soluton__card {
+  padding: 100px;
+}
+
+.solution__image {
+  width: 50px;
+}
+
+.offer {
+  height: 100vh;
+  background-color: #e4f1ed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.offer__container {
+  display: flex;
+}
+
+.offer-image {
+  width: calc(100% - 100px);
+  padding-bottom: 100px;
+  display: block;
+  z-index: 10;
+}
+
+.offer-image__container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 50px;
+}
+
+.offer__details {
+  background-color: red;
+  flex: 1;
+}
+
+.offer-image__description {
+  background-color: #10c98f;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  z-index: 15;
+  color: white;
+}
