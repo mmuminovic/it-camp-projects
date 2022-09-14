@@ -8,6 +8,10 @@ body {
   align-items: center;
 }
 
+.desktop-padding-top {
+  padding-top: 0;
+}
+
 /* VAZI SAMO ZA VELIKE EKRANE */
 @media (min-width: 992px) {
   body {
@@ -16,6 +20,10 @@ body {
 
   .mycard {
     height: 70vh !important;
+  }
+
+  .desktop-padding-top {
+    padding-top: 100px;
   }
 }
 
