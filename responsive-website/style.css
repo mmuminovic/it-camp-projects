@@ -1,0 +1,25 @@
+body {
+  padding: 16px;
+}
+
+.mycard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* VAZI SAMO ZA VELIKE EKRANE */
+@media (min-width: 992px) {
+  body {
+    padding: 60px;
+  }
+
+  .mycard {
+    height: 70vh !important;
+  }
+}
+
+.header__image {
+  width: 100%;
+  border-radius: 10px;
+}
