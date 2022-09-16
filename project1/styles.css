@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 .header {
@@ -80,6 +81,11 @@
   padding: 10px;
   border-radius: 15px;
   margin-top: 30px;
+  transition: 0.8s;
+}
+
+.projects-button:hover {
+  background-color: red;
 }
 
 .title-heading {
