@@ -13,6 +13,7 @@ body {
 }
 
 /* VAZI SAMO ZA VELIKE EKRANE */
+/* min-width ====> ekrani sa vecom sirinom od 992px */
 @media (min-width: 992px) {
   body {
     padding: 60px;
@@ -30,4 +31,20 @@ body {
 .header__image {
   width: 100%;
   border-radius: 10px;
+}
+
+.bg-primary {
+  background-color: aqua;
+}
+
+.border-red {
+  border: 2px solid red;
+}
+
+/* Za ekrane sa manjom sirinom od 992px */
+@media (max-width: 992px) {
+  .header__image {
+    width: auto;
+    height: 200px;
+  }
 }
